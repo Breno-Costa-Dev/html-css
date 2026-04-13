@@ -1,0 +1,15 @@
+    @charset "UTF-8";
+
+    body{
+        background-color: rgb(118, 118, 209);
+    }
+    h1{
+        color: hsl(90, 56%, 49%);
+    }
+    h2{
+        color: rgb(51, 48, 249);
+    }
+    p{
+        background-color: rgb(10, 2, 81);
+        color: white;
+    }

@@ -1,0 +1,60 @@
+@charset "UFT-8";
+
+body{
+    background-color: rgb(47, 46, 46);
+    color: aliceblue;
+}
+header{
+    background-color: green;
+    text-align: center;
+}
+header > nav{
+    background-color: rgb(6, 54, 6);
+    text-align: left;
+}
+main{
+    background-color: rgb(102, 102, 149);
+}
+section{
+    display: inline-block;
+}
+section#one{
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height:150px;
+    background-color: red;
+}
+section#one > article{
+    background-color: rgb(191, 196, 147);
+}
+section#two{
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height:150px;
+    background-color: rgb(126, 0, 0);
+}
+section#two > article{
+    text-align: center;
+    background-color: rgb(85, 15, 85);
+}
+aside{
+    background-color: rgb(33, 161, 45);
+}
+section#three{
+     width:200px;
+    height:150px;
+    text-align: center;
+    background-color: rgb(64, 2, 2);
+    margin: 10px;
+}
+section#three > article{
+    background-color: rgb(9, 9, 100);
+}
+
+footer{
+    text-align: center;
+    background-color:rgb(24, 24, 48);
+
+}

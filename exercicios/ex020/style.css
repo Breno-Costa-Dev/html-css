@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#042940 ;
+}
+h1{
+    color: #DBF227;
+    text-align: center;
+}
+div{
+    display: inline-block;
+    background-color:#D6D58E;
+    border: 5px solid black;
+    text-align: center;
+    height:200px;
+    width: 200px;
+}
+h2#cor:hover{
+    background-color:#005C53;
+
+}
+h2,p,h3{
+    color: #9FC131;
+}
+.divs:hover{
+    background-color:rgb(255, 249, 79);
+}

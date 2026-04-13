@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: #4d8572;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    font-weight: 32px;
+}
+h2{
+    color: rgb(11, 8, 100);
+}
+h2#subtitulo{
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(135, 6, 6);
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: #7097ba;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    background-color: #00E646;
+    text-align: center;
+    color: white;
+}
+.basico{
+    color: #00E646;
+
+}
+.Intermediario{
+    color: yellow;
+
+}
+.avancado{
+    color: red;
+
+}
+
+h2{
+    background-color: blue;
+}
+h2#primeiro{
+    background-color: red;
+}
+.marcar{
+    background-color: yellow;
+}
+p{
+    background-color: white;
+}
