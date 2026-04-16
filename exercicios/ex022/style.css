@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+
+body{
+    background-image: url(imagens/cat.webp);
+}
+
+div.quadrado{
+    border: 3px solid black;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 5px;
+}
+div#q1{
+    background-color: rgb(10, 10, 46);
+}
+div#q2{
+    background-image: linear-gradient( to left ,rgb(255, 0, 255) , rgb(0, 85, 255));
+}
+div#q3{
+    background-image: url(imagens/imgteste.webp)
+}
+div#q4{
+    background-image: url(imagens/repete-fotor-20260416201244.png);
+}
+div#q5{
+    background-image: url(imagens/cat.webp);
+}
+div#q6{
+    background-image: url(imagens/cereja.webp);
+}
+div#q7{
+    background-image: url(imagens/iconaleatorio.webp);
+}
+div#q8{
+    background-image: url(imagens/repete.webp);
+}
+div#q9{
+    background-image: linear-gradient(to bottom , blue, rgb(2, 2, 178), rgb(1, 1, 100), rgb(1, 1, 46));
+}
