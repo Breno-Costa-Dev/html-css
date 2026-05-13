@@ -1,0 +1,65 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family:'fonte1';
+    src: url(fontes/Passion_One/PassionOne-Regular.ttf) format(opentype);
+    font-weight: normal;
+}
+@font-face {
+    font-family:'fonte2';
+    src: url(fontes/Sriracha/Sriracha-Regular.ttf) format(opentype);
+    font-weight: normal;
+}
+body{
+    border: 0;
+    margin: 0;
+}
+section#cabeça{
+    background-color: black;
+    color: white;
+    text-align: center;
+   height: 180px;
+}
+section#cabeça > h1{
+    margin: 0;
+    padding-top: 50px;
+    font-family: fonte1;
+    font-size: 70px;
+}
+p#cabe{
+    margin: 0;
+    padding: 0;
+}
+p.cordel{
+    margin: 0;
+    width: 300px;
+    height: 400px;
+    white-space: pre;
+    font-family: fonte2;
+    font-size:x-large;
+}
+p.cordelfundo{
+    margin: 0;
+    width: 310px;
+    height: 400px;
+    white-space: pre;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    font-family: fonte2;
+    font-size: x-large;
+    margin-left: 15px;
+    
+   
+}
+section{
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+}
+section#fundo1{
+    background:blue url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+section#fundo2{
+    background:blue url(imagens/background002.jpg) left center no-repeat fixed;
+    background-size: cover;
+}
