@@ -47,19 +47,28 @@ p.cordelfundo{
     color: white;
     font-family: fonte2;
     font-size: x-large;
-    margin-left: 15px;
     
-   
 }
 section{
     background-color: rgb(255, 255, 255);
     height: 800px;
 }
 section#fundo1{
-    background:blue url(imagens/background001.jpg) right center no-repeat fixed;
+    background:rgb(100, 100, 100) url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
+    padding: 15px;
 }
 section#fundo2{
-    background:blue url(imagens/background002.jpg) left center no-repeat fixed;
+    background:rgb(99, 99, 99) url(imagens/background002.jpg) left center no-repeat fixed;
     background-size: cover;
+    padding: 15px;
+}
+aside{
+    width: 100%; 
+    height: 20px;
+    text-align: center;
+    background-color: black;
+    font-family: fonte1;
+    font-size: 20px;
+    color: aliceblue;
 }
