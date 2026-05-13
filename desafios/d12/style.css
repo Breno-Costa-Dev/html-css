@@ -25,10 +25,19 @@ section#cabeça > h1{
     padding-top: 50px;
     font-family: fonte1;
     font-size: 70px;
+    font-variant: small-caps;
 }
 p#cabe{
     margin: 0;
     padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+   font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
 }
 p.cordel{
     margin: 0;
