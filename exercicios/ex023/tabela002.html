@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <style>
+        h1{
+            text-align: center;
+        }
+        caption{
+            font-weight: bold;
+            background-color: rgb(235, 241, 247);
+            padding: 10px;
+        }
+        table{
+            position: relative;
+            margin: auto;
+            width: 400px;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        thead{
+            text-align: center;
+            background-color: rgb(210, 210, 244);
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        tfoot{
+            border: 1px solid black;
+            padding: 5px;
+            background-color: rgb(210, 210, 244);
+        }
+        .num{
+            text-align: right;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(176, 174, 174);
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0px;
+            background-color:rgb(210, 210, 244);
+        }
+    </style>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 870 907</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 890 517</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 233 263</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 562 007</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 268 836</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>124 698 789</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, enim hic blanditiis distinctio tempore illo, quia ex doloremque expedita inventore aliquam deleniti cum modi explicabo, saepe accusamus quis nisi veritatis!Loremlore
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos aperiam exceptu Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus sint officiis dolore natus ad nesciunt labore sit saepe reprehenderit? Reiciendis nulla officiis aut ipsam impedit at qui delectus iusto!Loremlorem
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam mollitia, quas impedit blanditiis beatae iusto totam! Exercitationem voluptatibus excepturi accusamus voluptates nam iste dicta sint, numquam beatae. Ducimus, quam asperiores Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis amet commodi modi omnis, numquam iusto nulla eius soluta quasi suscipit ad voluptatem laborum sunt, incidunt quis facere illum velalias aspernatur obcaecati, possimus similique ut odio quasi fugiat laborum perspiciatis porro voluptatibus? Iusto, facilis non. Quam, ducimus quasi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, natus quasi? Molestiae, distinctio commodi? Enim, fuga maxime distinctio quis est facere veniam possimus cupiditate adipisci quasi, vero ea harum sit?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum facilis quaerat tempore nobis impedit ex, porro placeat maiores quas, esse soluta! Facere, soluta amet sapiente earum minima nemo aliquid commodi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequuntur assumenda maxime nobis in expedita, quam aliquam est obcaecati, quaerat officia, velit omnis repudiandae perferendis ipsum error? Sapiente, itaque culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae dicta eveniet labore, sit non ipsam expedita deserunt voluptatum unde quidem? Quas voluptatem voluptatibus, eligendi vitae eum Ducimus, quam asperiores Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis amet commodi modi omnis, numquam iusto nulla eius soluta quasi suscipit ad voluptatem laborum sunt, incidunt quis facere illum velalias aspernatur obcaecati, possimus similique ut odio quasi fugiat laborum perspiciatis porro voluptatibus? Iusto, facilis non. Quam, ducimus quasi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, natus quasi? Molestiae, distinctio commodi? Enim, fuga maxime distinctio quis est facere veniam possimus cupiditate adipisci quasi, vero ea harum sit?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum facilis quaerat tempore nobis impedit ex, porro placeat maiores quas, esse soluta! Facere, soluta amet sapiente earum minima nemo aliquid commodi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequuntur assumenda maxime nobis in expedita, quam aliquam est obcaecati, quaerat officia, velit omnis repudiandae perferendis ipsum error? Sapiente, itaque culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae dicta eveniet labore, sit non ipsam expedita deserunt voluptatum unde quidem? Quas voluptatem voluptatibus, eligendi vitae eum Ducimus, quam asperiores Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis amet commodi modi omnis, numquam iusto nulla eius soluta quasi suscipit ad voluptatem laborum sunt, incidunt quis facere illum velalias aspernatur obcaecati, possimus similique ut odio quasi fugiat laborum perspiciatis porro voluptatibus? Iusto, facilis non. Quam, ducimus quasi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, natus quasi? Molestiae, distinctio commodi? Enim, fuga maxime distinctio quis est facere veniam possimus cupiditate adipisci quasi, vero ea harum sit?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum facilis quaerat tempore nobis impedit ex, porro placeat maiores quas, esse soluta! Facere, soluta amet sapiente earum minima nemo aliquid commodi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequuntur assumenda maxime nobis in expedita, quam aliquam est obcaecati, quaerat officia, velit omnis repudiandae perferendis ipsum error? Sapiente, itaque culpa?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae dicta eveniet labore, sit non ipsam expedita deserunt voluptatum unde quidem? Quas voluptatem voluptatibus, eligendi vitae eum maxime vel hic?
+    </p>
+
+    
+</body>
+</html>
