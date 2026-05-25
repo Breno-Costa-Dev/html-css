@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <style>
+        table{
+            width: 300px;
+            height: 300px;
+            border-collapse: collapse;
+            background-color: blueviolet;
+        }
+        td{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 3px;
+            text-align: center;
+            vertical-align: top;
+        }
+        tr#linha2{
+            background-color: rgb(51, 255, 0);
+        }
+        tr#linha4{
+            background-color: darkmagenta;
+            color: white;
+        }
+        .numero{
+            text-align: right;
+        }
+    </style>
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr id="linha1">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr id="linha2">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr id="linha3">
+            <td>A3</td>
+            <td class="numero">350</td>
+            <td>C3</td>
+        </tr>
+        <tr id="linha4">
+            <td class="numero">12</td>
+            <td class="numero">1890</td>
+            <td class="numero">255</td>
+        </tr>
+    </table>
+
+</body>
+</html>
