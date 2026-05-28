@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+body{
+    background-color: rgb(23, 23, 39);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+table{
+    color: rgb(253, 253, 253);
+    border-collapse: collapse;
+    margin: auto;
+
+}
+caption{
+    background-color: rgba(253, 252, 252, 0.607);
+    color: black;
+}
+td , th{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+}
+#tabela2{
+    margin-top: 30px;
+}
