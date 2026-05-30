@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <style>
+        table{
+            margin: auto;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        caption{
+            background-color: grey;
+        }
+        td, th{
+            padding: 5px;
+            border: 1px solid black;
+        }
+        col#col1{
+            background-color: blue;
+        }
+        col#col2{
+            background-color: red;
+        }
+        col#col3{
+            background-color: green;
+        }
+        tfoot{
+            background-color: grey;
+        }
+    </style>
+    <table>
+        <colgroup>
+        <col id="col1">
+        <col id="col2">
+        <col id="col3">
+    </colgroup>
+        <caption>Lista de Funcionários</caption>
+        <thead>
+            <tr>
+                <th>Função</th>
+                <th>Quantidade</th>
+                <th>Nivel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Auxiliar</th>
+                <td>14</td>
+                <td>2°</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>3°</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Encanador</th>
+                <td>5</td>
+                <td>1°</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>3°</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Encomendador</th>
+                <td>8</td>
+                <td>3°</td>
+            </tr>
+           <tr>
+            <td>3</td>
+            <td>1°</td>
+           </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="2">Total de Funcionarios</th>
+            <td>38</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
