@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas</title>
+</head>
+<body>
+    <form action="">
+    <p>
+        <label for="iest">Estados</label>
+        <select name="Est" id="iest">
+            <optgroup label="Região 01">
+                <option value="SP">São Paulo</option>
+                <option value="CE">Ceará</option>
+                <option value="SE">Sergipe</option>
+            </optgroup>
+
+            <optgroup label="Região 02">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="ipro">Profissoes</label>
+        <input type="text" name="pro" id="ipro" list="listpro">
+        <datalist id="listpro">
+            <option>Administrador</option>
+            <option>Eletricista</option>
+            <option>Policial</option>
+            <option>Secretaria</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="imsg">Mensagem</label>
+        <textarea name="Mensagem" id="imsg" cols="15" rows="5"></textarea>
+
+    </p>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    
+</body>
+</html>
