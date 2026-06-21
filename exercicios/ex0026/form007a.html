@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Loja</h1>
+    <form action="">
+        <label for="icom">Compras</label>
+        <select name="com" id="icom">
+                <optgroup label="Cozinha">
+                    <option value="">Louças</option>
+                    <option value="">Ultesìlios</option>
+                    <option value="">Armários</option>
+                </optgroup>
+                <optgroup label="Sala">
+                    <option value="">Televisões</option>
+                    <option value="">Sofás</option>
+                    <option value="">Iluminação</option>
+                </optgroup>
+                <optgroup label="Quarto">
+                    <option>Camas</option>
+                    <option>Guarda-Roupas</option>
+                    <option>Moveis</option>
+                </optgroup>
+        </select>
+
+        <p>
+            <label for="ipes">Pesquisar</label>
+            <input type="text" name="pes" id="ipes" list="lpes">
+            <datalist id="lpes">
+                <option>Tapetes</option>
+                <option>Espelhos</option>
+                <option>Brinquedos</option>
+                <option>Roupas</option>
+                <option>Ventiladores</option>
+                <option>Panelas<option>
+                <option>Alimentos</option>
+                <option>Calçados</option>
+                <option>Celulares</option>
+                <option>Recipientes</option>
+            </datalist>
+        </p>
+        <input type="submit" value="Pesquisar">
+
+    </form>
+
+    
+</body>
+</html>
