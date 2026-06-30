@@ -1,5 +1,64 @@
 @charset 'UTF-8';
+
 /* Versão para todas as demais midias */
+
 @media print {
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+    img#ph{
+        display: none;
+    }
+    img#pr{
+        display: block;
+    }
+    main{
+        border: 3px solid black;
+    }
+    main::after{
+        content: 'Site feito pelo Curso em Video';
+        text-decoration: overline;
+    }
+}
+
+@media  screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: url(imagens/back-tablet.jpg);
+    }
+    img#tb{
+        display: block;
+    }
+    img#ph{
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body{
+        background-image: url(imagens/back-pc.jpg);
+    }
+    img#ph{
+        display: none;
+    }
+    img#pc{
+        display: block;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    body{
+        background-image: url(imagens/back-tv.jpg);
+    }
+    img#ph{
+        display: none;
+    }
+    img#tv{
+        display: block;
+    }
+    main{
+        width: 700px;
+    }
     
 }
